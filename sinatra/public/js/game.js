@@ -16,7 +16,6 @@ function preload() {
     game.load.spritesheet('shield', 'assets/shield.png', 192, 192, 20);
     game.load.image('starfield', 'assets/starfield.png');
     game.load.image('background', 'assets/background2.png');
-    game.load.atlas('arcade', 'assets/virtualjoystick/skins/generic-joystick.png', 'assets/virtualjoystick/skins/generic-joystick.json');
     game.load.image('menu', 'assets/new_game.png', 270, 180);
     game.load.image(POWERUP_TYPE_HEALTH, 'assets/' + POWERUP_TYPE_HEALTH + '.png', 75, 75);
     game.load.image(POWERUP_TYPE_LAZER_UPGRADE_1, 'assets/'+ POWERUP_TYPE_LAZER_UPGRADE_1 + '.png', 24, 22);
